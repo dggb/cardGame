@@ -366,7 +366,7 @@ watch(cards, () => {
     position: relative;
     display: inline-block;
     padding: 25px 30px;
-    margin: 40px 0;
+    margin: 40px;
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
