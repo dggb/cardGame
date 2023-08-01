@@ -344,7 +344,7 @@ watch(cards, () => {
 .card-back img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .matched .card-info {
   transform: rotateY(180deg);
