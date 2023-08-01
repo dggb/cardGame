@@ -43,7 +43,7 @@ export default {
 </script>
 
 <script setup>
-import { ref, reactive, watch, nextTick } from 'vue';
+import { ref, reactive, watch } from 'vue';
 
 const imageContext = require.context(
   '../assets/img/png',
@@ -196,9 +196,9 @@ watch(cards, () => {
 
       alert('카드 게임 -완-');
 
-      nextTick(() => {
-        resetCards();
-      })
+      // nextTick(() => {
+      //   resetCards();
+      // })
     }, 500);
   }
 });
