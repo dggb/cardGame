@@ -19,7 +19,7 @@
         <span></span>
         게임 시작
     </a>
-
+    $nbsp;
     <a href="#" class="button_css" @click="resetCards()">
         <span></span>
         <span></span>
@@ -366,15 +366,13 @@ watch(cards, () => {
     position: relative;
     display: inline-block;
     padding: 25px 30px;
-    margin: 40px;
+    margin: 0px 0px 0px 0px;
     color: #03e9f4;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
-    overflow: hidden;
-    margin-right: 50px;
-   
+    overflow: hidden;   
 }
 .button_css:hover{
     background: #03e9f4;
